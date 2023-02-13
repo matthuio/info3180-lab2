@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block main %}
+    <head>
+        <div class="top">
+            <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+            <img src="{{ url_for('static', filename='Face.png') }}" alt="Face with glasses">
+            <h1>Matthew Grant</h1>
+            <h2>
+                <p>matthuio@</p>
+                <p>Kingston,Jamaica</p>
+                <p>Joined February, 2023</p>
+                
+            </h2>
+        </div>
+        <body>
+            <div class="center">
+                <p>
+                    I am a introverted, well mannered nice person, I like long walks on the beach
+                    Spending times with friends and loved ones, playing games and watching tv. I am very interested in programming I believe it might be my passion
+                    and I would like to do it as a career
+                </p>
+                <h3>Posts 3</h3>
+                <h4>Following 23</h4>
+                <h5>Followers 43</h5>
+                <button>Follow</button>
+            </div>
+        </body>
+    </head>
+</html>
+{%endblock%}
